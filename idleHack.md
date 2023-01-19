@@ -1,4 +1,4 @@
-var target = ns.getHostname();
+var target = getHostname();
 var moneyThresh = getServerMaxMoney(target) * 0.75;
 var securityThresh = getServerMinSecurityLevel(target) + 5;
 while (true) {
